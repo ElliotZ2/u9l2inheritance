@@ -13,4 +13,8 @@ public class Cafe extends Building{
     public void serveFood(String nameOfCustomer) {
         System.out.println("food has been served to " + nameOfCustomer + ".");
     }
+
+    public String getFoodRating() {
+        return foodRating;
+    }
 }

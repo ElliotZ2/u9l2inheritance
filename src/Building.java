@@ -5,7 +5,7 @@ public class Building {
 
     public Building(String name, String address, int height) {
         this.name = name;
-        this.address = name;
+        this.address = address;
         this.height = height;
     }
 
@@ -13,4 +13,15 @@ public class Building {
         System.out.println(name + " is now closed");
     }
 
+    public String getAddress() {
+        return address;
+    }
+
+    public int getHeight() {
+        return height;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
